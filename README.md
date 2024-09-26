@@ -180,6 +180,7 @@ rg --stats PATTERN # Print statistics of matches (# of matched lines and files )
 
 ## 3. Editors (Vim)
 - vim: command-line-based editor: modal editor
+- [VIM Editor Commands](https://sites.radford.edu/~mhtay/CPSC120/VIM_Editor_Commands.htm)
 ### Modal editing
 Modes:
 - <b>Normal</b>: for moving around a file and making edits
@@ -201,6 +202,7 @@ Modes:
 ### Command Mode 
 ```
 - :q quit (close window)
+- :q! force quit (close window)
 - :w save (“write”)
 - :wq save and quit
 - :e {name of file} open file for editing
@@ -208,6 +210,10 @@ Modes:
 - :help {topic} open help
     - :help :w opens help for the :w command
     - :help w opens help for the w movement
+```
+if the editing is enabled 
+```
+:dd delete the single line where the cursor is
 ```
 ### Normal Mode
 ```
